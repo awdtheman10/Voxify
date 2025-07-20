@@ -23,20 +23,28 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 sounds_dir = os.path.join(base_dir, "Sounds")
 prefs_path = os.path.join(base_dir, "voicify_prefs.json")
 os.makedirs(sounds_dir, exist_ok=True)
+beta_keybinds_var = BooleanVar(value=False)
 
 hotkey_refs = []  
 
 def register_all_keybinds():
     global hotkey_refs
 
-   
     for ref in hotkey_refs:
         try:
-            keyboard.remove_hotkey(ref)
+            keyboard.unhook(ref)
         except Exception as e:
-            print(f"[Warning] Failed to remove hotkey: {e}")
-
+            print(f"[Warning] Failed to unhook: {e}")
     hotkey_refs.clear()
+
+    def on_key(e):
+        for sound in soundboard_sounds:
+            key = sound.get('keybind')
+            if key and e.name == key:
+                play_sound_by_name(sound['name'])
+
+    hook = keyboard.on_press(on_key)
+    hotkey_refs.append(hook)
 
 
     for sound in soundboard_sounds:
