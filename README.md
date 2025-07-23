@@ -16,3 +16,12 @@ Thats the power of programmers.
 i hope yall have fun with it lolllzz
 
 
+
+
+
+"Why make it open source?"
+have you seen an open source project in the last 5 years? the community should be about helping each other and fixing bugs and whatnot. not whoever makes their code the hardest to read.
+"Was this a fun project?"
+coding it wasn't, but using it is
+"Is it ever being taken down?"
+prolly not idk
