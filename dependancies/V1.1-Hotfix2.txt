@@ -1,0 +1,5 @@
+Hotfix 2 (For Version 1.1)
+- Fixed pitch
+- Fixed volume
+- Started including the build folder and .spec files.
+- uh yay i have some views of recent, ppl are seeing voxify
