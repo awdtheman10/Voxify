@@ -1,7 +1,10 @@
-V1.2 BETA
-- Added WAY more file formats using ffmpeg
-- Added ffmpeg protection
-- Changed default settings
-- Allowed more pitch + volume change
-- forgot to upload the hotfix 2, so im doing beta v1.2 lol
-- sorry it took me a week, i was lazy
+V1.2 (i swear tis time its better)
+- Added the "remove sound" button
+- Added internet thing
+- Changed the sliders a bit
+- Hopefully fixed internet issues (if bing is down then im not the reason)
+- Accidently made it load a little slower, i'll fix a bit later
+ - also added a disclaimer of how loading times are affected
+- Added better autosaving for sounds
+- Added "Clear keybind" button
+- Became sigma
