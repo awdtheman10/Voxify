@@ -1,0 +1,9 @@
+Hotfix 1 (For V1.1)
+- Added new settings
+ - Note, the new setting is in beta. It might work for some and not for others.
+- Changed the soundboard tab some more
+- Fixed keybinds not playing when holding other keys
+ - Note, holding many keys is not advised, because it might not work when this happens.
+- Fixed keybinds not updating in the soundboard list
+- Reduced loading times
+- Cleaned up code
